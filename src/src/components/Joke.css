@@ -1,0 +1,43 @@
+section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 24px;
+}
+
+h2 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+p {
+  width: 100%;
+  text-align: center;
+}
+
+.joke {
+  background-color: #f1f2f6;
+  border: 2px solid #27187e;
+  border-radius: 25px;
+  box-shadow: 5px 5px 5px #aeb8fe;
+  padding: 25px;
+  margin-bottom: 25px;
+  width: 45%;
+  h3 {
+    text-align: center;
+  }
+  span {
+    font-weight: bold;
+  }
+}
+
+.joke:hover {
+  cursor: pointer;
+  translate: 0% 5%;
+}
+
+a {
+  color: #000000;
+}
