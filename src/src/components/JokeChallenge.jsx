@@ -1,9 +1,9 @@
 import Joke from "./Joke"
-import jokesData from "./jokesData";
+import JokesData from "./JokesData";
 import "./Joke.css"
 
 export default function JokeProject(){
-    const jokesElement = jokesData.map((joke) => {
+    const jokesElement = JokesData.map((joke) => {
         return <Joke setup={joke.setup} punchline={joke.punchline} upvotes={joke.upvotes} downvotes={joke.downvotes} />
     })
     
